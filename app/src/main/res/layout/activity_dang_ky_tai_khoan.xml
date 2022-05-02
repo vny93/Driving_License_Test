@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mau3"
+    android:orientation="vertical"
+    tools:context=".DangKyTaiKhoan">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbardk"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/rectangle"
+            android:theme="@style/ThemeOverlay.AppCompat.Light"
+            app:title="Đăng ký tài khoản"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <EditText
+        android:id="@+id/edtHoTen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="32dp"
+        android:hint="    Họ tên"
+        android:background="@drawable/boder"
+        android:drawableStart="@drawable/ic_baseline_account_circle_24"
+        android:padding="16dp"/>
+
+    <EditText
+        android:id="@+id/edtSDT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="32dp"
+        android:hint="    Số điện thoại"
+        android:background="@drawable/boder"
+        android:drawableStart="@drawable/ic_baseline_account_circle_24"
+        android:padding="16dp"/>
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="32dp"
+        android:hint="    Email"
+        android:background="@drawable/boder"
+        android:drawableStart="@drawable/ic_baseline_account_circle_24"
+        android:padding="16dp"/>
+    <EditText
+        android:id="@+id/edtMatkhau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="32dp"
+        android:hint="    Mật khẩu"
+        android:background="@drawable/boder"
+        android:drawableStart="@drawable/ic_baseline_account_circle_24"
+        android:padding="16dp"/>
+
+    <Button
+        android:id="@+id/btnDangKy"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_button1"
+        android:text="Đăng ký" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="-10dp"
+            android:src="@drawable/circle" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="350dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/circle" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="150dp"
+        android:src="@drawable/circle" />
+</LinearLayout>

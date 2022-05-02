@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.doan_thibanglaixe">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Design.Light.NoActionBar"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".ChiTietKetQua"
+            android:exported="false" />
+        <activity
+            android:name=".KetQuaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Cauhoilithuyet"
+            android:exported="false" />
+        <activity
+            android:name=".DangKyTaiKhoan"
+            android:exported="false" />
+        <activity
+            android:name=".DoiMatKhau"
+            android:exported="false" />
+        <activity
+            android:name=".ThongTinCaNhan"
+            android:exported="false" />
+        <activity
+            android:name=".CacCauSai"
+            android:exported="false" />
+        <activity
+            android:name=".TraCuuLuat"
+            android:exported="false" />
+        <activity
+            android:name=".MeoThi"
+            android:exported="false" />
+        <activity
+            android:name=".LamBaiThi"
+            android:exported="false" />
+        <activity
+            android:name=".ChonBoDeThi"
+            android:exported="false" />
+        <activity
+            android:name=".LiThuyet"
+            android:exported="false" />
+        <activity
+            android:name=".Menu"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
