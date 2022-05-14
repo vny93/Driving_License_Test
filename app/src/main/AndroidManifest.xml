@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Design.Light.NoActionBar"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".ChiTietLuat"
+            android:exported="false" />
+        <activity
             android:name=".ChiTietKetQua"
             android:exported="false" />
         <activity
@@ -37,7 +40,7 @@
             android:name=".TraCuuLuat"
             android:exported="false" />
         <activity
-            android:name=".MeoThi"
+            android:name=".MeoActivity"
             android:exported="false" />
         <activity
             android:name=".LamBaiThi"

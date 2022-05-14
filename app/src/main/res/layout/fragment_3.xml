@@ -3,14 +3,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/mau3">
+    android:background="@drawable/hn">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:layout_marginStart="10dp"
         android:textSize="25dp"
-        android:textColor="@color/black"
+        android:textColor="@color/a4"
         android:textStyle="bold"
         android:text="CHỌN BỘ ĐỀ THI"/>
 
@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:textSize="25dp"
-        android:textColor="@color/black"
+        android:textColor="@color/a4"
         android:textStyle="bold"
         android:layout_marginStart="10dp"
         android:text="CHỌN LOẠI BẰNG LÁI XE MÁY"/>
@@ -34,29 +34,4 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:orientation="horizontal">
-
-        <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_marginLeft="-10dp"
-            android:src="@drawable/circle" />
-
-        <ImageView
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginLeft="350dp"
-            android:layout_marginTop="5dp"
-            android:src="@drawable/circle" />
-    </LinearLayout>
-
-    <ImageView
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginLeft="150dp"
-        android:src="@drawable/circle" />
 </LinearLayout>

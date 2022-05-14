@@ -1,9 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MeoThi">
+    android:orientation="vertical"
+    android:background="@drawable/hn"
+    tools:context=".MeoActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_meo"
+            android:layout_width="match_parent"
+            app:titleTextColor="@color/a4"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/rectangle"
+            android:theme="@style/ThemeOverlay.AppCompat.Light"
+            app:title="Mẹo làm bài thi" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <SearchView
+        android:id="@+id/svLoaimeo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/border_rectangle" />
+    <ListView
+        android:id="@+id/lvLoaimeo"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

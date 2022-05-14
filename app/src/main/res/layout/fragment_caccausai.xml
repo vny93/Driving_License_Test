@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/hn"
+    android:orientation="vertical"
+    tools:context=".fragment.Fragment_Caccausai">
+
+    <TextView
+        android:id="@+id/tvSTTcausai"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Câu 1"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp">
+    <TextView
+        android:id="@+id/tvCauhoi_cs"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:padding="5dp"
+        android:text="Câu hỏi"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/imvHinhanh_cs"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp">
+    <RadioGroup
+        android:id="@+id/radG_cs"
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:layout_height="280dp">
+
+        <RadioButton
+            android:id="@+id/rad1_cs"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lựa chọn 1"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/rad2_cs"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lựa chọn 2"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/rad3_cs"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lựa chọn 3"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/rad4_cs"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lựa chọn 4"
+            android:textSize="15dp" />
+
+    </RadioGroup>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

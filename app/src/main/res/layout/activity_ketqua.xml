@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/mau3"
+    android:background="@drawable/hn"
     android:orientation="vertical"
     tools:context=".KetQuaActivity">
 
@@ -15,6 +15,7 @@
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar_kq"
             android:layout_width="match_parent"
+            app:titleTextColor="@color/a4"
             android:layout_height="?attr/actionBarSize"
             android:background="@drawable/rectangle"
             android:theme="@style/ThemeOverlay.AppCompat.Light"

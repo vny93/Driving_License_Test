@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/mau3"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/hn"
     android:orientation="vertical"
     tools:context=".fragment.Fragment_Chitietkq">
 
@@ -15,32 +16,41 @@
         android:text="Câu 1"
         android:gravity="center"
         android:textColor="@color/black"
-        android:textSize="25dp"
+        android:textSize="20dp"
         android:textStyle="bold" />
 
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp">
     <TextView
         android:id="@+id/tvCauhoi_ctkq"
         android:layout_width="match_parent"
-        android:layout_marginRight="10dp"
-        android:layout_marginLeft="10dp"
         android:layout_height="100dp"
-        android:layout_marginTop="10dp"
         android:padding="5dp"
-        android:background="@drawable/border_rectangle"
         android:text="Câu hỏi"
         android:textColor="@color/black"
-        android:textSize="19dp"
+        android:textSize="18dp"
         android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
 
+    <ImageView
+        android:id="@+id/imvHinhanh_kq"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp">
     <RadioGroup
         android:id="@+id/radG_ctkq"
         android:layout_width="match_parent"
-        android:layout_marginRight="10dp"
-        android:layout_marginLeft="10dp"
         android:padding="5dp"
-        android:layout_height="380dp"
-        android:layout_marginTop="15dp"
-        android:background="@drawable/border_rectangle">
+        android:layout_height="280dp">
 
         <RadioButton
             android:id="@+id/rad1_ctkq"
@@ -48,33 +58,33 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Lựa chọn 1"
-            android:textSize="18dp" />
+            android:textSize="15dp" />
 
         <RadioButton
             android:id="@+id/rad2_ctkq"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="30dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Lựa chọn 2"
-            android:textSize="18dp" />
+            android:textSize="15dp" />
 
         <RadioButton
             android:id="@+id/rad3_ctkq"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="30dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Lựa chọn 3"
-            android:textSize="18dp" />
+            android:textSize="15dp" />
 
         <RadioButton
             android:id="@+id/rad4_ctkq"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="30dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Lựa chọn 4"
-            android:textSize="18dp" />
+            android:textSize="15dp" />
 
     </RadioGroup>
-
+    </androidx.cardview.widget.CardView>
 
 </LinearLayout>

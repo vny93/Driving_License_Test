@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/mau3"
+    android:background="@drawable/hn"
     tools:context=".LiThuyet">
 
     <com.google.android.material.appbar.AppBarLayout
@@ -15,6 +15,7 @@
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
+            app:titleTextColor="@color/a4"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="@drawable/rectangle"
@@ -22,6 +23,8 @@
             app:title="Học lí thuyết"
             />
     </com.google.android.material.appbar.AppBarLayout>
+
+
 
     <FrameLayout
         android:layout_width="match_parent"

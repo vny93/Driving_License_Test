@@ -85,24 +85,5 @@ public class Fragment_Ketqua extends Fragment {
             }
         });
     }
-    private void getKq(){
-        //  ApiKetquaService.apiKetquaService.getLuotthi()
-    }
 
-    private void getCauhoiKQ(){
-        String email=MainActivity.user.getEmail().toString();
-        Integer luotthi=1;
-        Integer mabode=Menu.bodethi.getMabodethi();
-        ApiCauhoiiService.apiCauhoiService.getCauhoi_KQ(email,luotthi,mabode).enqueue(new Callback<List<Cauhoi>>() {
-            @Override
-            public void onResponse(Call<List<Cauhoi>> call, Response<List<Cauhoi>> response) {
-
-            }
-
-            @Override
-            public void onFailure(Call<List<Cauhoi>> call, Throwable t) {
-
-            }
-        });
-    }
 }

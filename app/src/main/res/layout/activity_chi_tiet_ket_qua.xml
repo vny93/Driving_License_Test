@@ -17,6 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="@drawable/rectangle"
+            app:titleTextColor="@color/a4"
             android:theme="@style/ThemeOverlay.AppCompat.Light"
             app:title="Kết quả đề "
             />
@@ -39,7 +40,7 @@
             android:layout_gravity="center"
             android:layout_weight="1"
             android:gravity="center"
-            android:textColor="@color/black"
+            android:textColor="@color/a4"
             android:text="Lùi"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -55,7 +56,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:textColor="@color/black"
+                android:textColor="@color/a4"
                 android:text="Tiến"
                 android:textSize="20sp"
                 android:textStyle="bold" />

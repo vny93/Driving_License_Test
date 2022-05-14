@@ -38,4 +38,8 @@ public interface ApiCauhoiiService {
     Call<List<Cauhoi>> getCauhoi_KQ(@Query("email") String email,
                                     @Query("luotthi") Integer luotthi,
                                     @Query("mabode") Integer mabode);
+
+    @GET("cauhoi/getcausai")
+    Call<List<Cauhoi>> getCausai(@Query("email") String email,
+                                    @Query("mabode") Integer mabode);
 }

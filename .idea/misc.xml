@@ -6,7 +6,8 @@
         <entry key="../../../../layout/custom_preview.xml" value="0.14375" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.1453125" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2677083333333333" />
-        <entry key="app/src/main/res/drawable/boder.xml" value="0.2677083333333333" />
+        <entry key="app/src/main/res/drawable/boder.xml" value="0.125" />
+        <entry key="app/src/main/res/drawable/boder2.xml" value="0.1565" />
         <entry key="app/src/main/res/drawable/border_rectangle.xml" value="0.1453125" />
         <entry key="app/src/main/res/drawable/border_rectangle2.xml" value="0.142" />
         <entry key="app/src/main/res/drawable/circle.xml" value="0.125" />
@@ -14,20 +15,26 @@
         <entry key="app/src/main/res/drawable/custom_button1.xml" value="0.2677083333333333" />
         <entry key="app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.14479166666666668" />
         <entry key="app/src/main/res/drawable/ic_baseline_brightness_1_24.xml" value="0.2677083333333333" />
+        <entry key="app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.1565" />
         <entry key="app/src/main/res/drawable/ic_baseline_emoji_emotions_24.xml" value="0.1285" />
         <entry key="app/src/main/res/drawable/ic_baseline_hexagon_24.xml" value="0.2677083333333333" />
+        <entry key="app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1565" />
         <entry key="app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.2677083333333333" />
+        <entry key="app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.1565" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2677083333333333" />
         <entry key="app/src/main/res/drawable/logo.xml" value="0.2677083333333333" />
         <entry key="app/src/main/res/drawable/rectangle.xml" value="0.2677083333333333" />
+        <entry key="app/src/main/res/drawable/result.xml" value="0.1565" />
         <entry key="app/src/main/res/drawable/side_nav_bar.xml" value="0.2635897435897436" />
         <entry key="app/src/main/res/drawable/text.xml" value="0.142" />
         <entry key="app/src/main/res/layout/a.xml" value="0.12234042553191489" />
         <entry key="app/src/main/res/layout/activity_cac_cau_sai.xml" value="0.2515625" />
         <entry key="app/src/main/res/layout/activity_cauhoilithuyet.xml" value="0.2515625" />
-        <entry key="app/src/main/res/layout/activity_chi_tiet_ket_qua.xml" value="0.11770833333333333" />
+        <entry key="app/src/main/res/layout/activity_chi_tiet_ket_qua.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_chi_tiet_luat.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_chon_bo_de_thi.xml" value="0.2515625" />
         <entry key="app/src/main/res/layout/activity_dang_ky_tai_khoan.xml" value="0.2515625" />
+        <entry key="app/src/main/res/layout/activity_dialog_tbthanhcong.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_doi_mat_khau.xml" value="0.2515625" />
         <entry key="app/src/main/res/layout/activity_hoc_li_thuyet.xml" value="0.2515625" />
         <entry key="app/src/main/res/layout/activity_ketqua.xml" value="0.11770833333333333" />
@@ -42,30 +49,37 @@
         <entry key="app/src/main/res/layout/app_bar_navigation.xml" value="0.11550151975683891" />
         <entry key="app/src/main/res/layout/content_navigation.xml" value="0.2515625" />
         <entry key="app/src/main/res/layout/dialog_checkanswer.xml" value="0.2515625" />
+        <entry key="app/src/main/res/layout/dialog_meothi.xml" value="0.18840579710144928" />
         <entry key="app/src/main/res/layout/dialog_xemDiem.xml" value="0.15534420289855072" />
         <entry key="app/src/main/res/layout/dialog_xemdiem.xml" value="0.15534420289855072" />
-        <entry key="app/src/main/res/layout/fragment_1.xml" value="0.121875" />
+        <entry key="app/src/main/res/layout/fragment_1.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_2.xml" value="0.121875" />
-        <entry key="app/src/main/res/layout/fragment_3.xml" value="0.121875" />
-        <entry key="app/src/main/res/layout/fragment_4.xml" value="0.121875" />
-        <entry key="app/src/main/res/layout/fragment_5.xml" value="0.121875" />
+        <entry key="app/src/main/res/layout/fragment_3.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_4.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/fragment_5.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_6.xml" value="0.2515625" />
+        <entry key="app/src/main/res/layout/fragment__caccausai.xml" value="0.18840579710144928" />
         <entry key="app/src/main/res/layout/fragment__chitietkq.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment__hoclithuyet.xml" value="0.2515625" />
         <entry key="app/src/main/res/layout/fragment__ketqua.xml" value="0.11770833333333333" />
         <entry key="app/src/main/res/layout/fragment__lambaithi.xml" value="0.2515625" />
+        <entry key="app/src/main/res/layout/fragment_caccausai.xml" value="0.18840579710144928" />
         <entry key="app/src/main/res/layout/fragment_chitietkq.xml" value="0.15534420289855072" />
         <entry key="app/src/main/res/layout/fragment_gallery.xml" value="0.12916666666666668" />
-        <entry key="app/src/main/res/layout/fragment_hoclithuyet.xml" value="0.2515625" />
+        <entry key="app/src/main/res/layout/fragment_hoclithuyet.xml" value="0.165" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.12916666666666668" />
         <entry key="app/src/main/res/layout/fragment_ketqua.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/fragment_lambaithi.xml" value="0.11770833333333333" />
+        <entry key="app/src/main/res/layout/fragment_lambaithi.xml" value="0.165" />
         <entry key="app/src/main/res/layout/fragment_loailithuyet.xml" value="0.2515625" />
+        <entry key="app/src/main/res/layout/fragment_loailuat.xml" value="0.18840579710144928" />
         <entry key="app/src/main/res/layout/fragment_slideshow.xml" value="0.12916666666666668" />
+        <entry key="app/src/main/res/layout/item_chitietluat.xml" value="0.25" />
         <entry key="app/src/main/res/layout/item_gvdscauhoi.xml" value="0.2515625" />
         <entry key="app/src/main/res/layout/item_ketqua.xml" value="0.25" />
         <entry key="app/src/main/res/layout/item_lithuyet.xml" value="0.2375" />
-        <entry key="app/src/main/res/layout/item_loaide_banglai.xml" value="0.11770833333333333" />
+        <entry key="app/src/main/res/layout/item_loaide_banglai.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/item_loailuat.xml" value="0.18840579710144928" />
+        <entry key="app/src/main/res/layout/item_meothi.xml" value="0.18840579710144928" />
         <entry key="app/src/main/res/layout/layout_header_navi.xml" value="0.2375" />
         <entry key="app/src/main/res/layout/nav_header_navigation.xml" value="0.12916666666666668" />
         <entry key="app/src/main/res/layout/tmp.xml" value="0.2515625" />

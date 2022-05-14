@@ -12,6 +12,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.doan_thibanglaixe.api.ApiTKService;
 import com.example.doan_thibanglaixe.api.ApiUserService;
 import com.example.doan_thibanglaixe.model.Taikhoan;
 import com.example.doan_thibanglaixe.model.User;
@@ -63,25 +64,61 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(MainActivity.this,"Vui lòng điền đẩy đủ thông tin",Toast.LENGTH_SHORT).show();
             return;
         }
-       XulyLogin();
+        checkTKtontai(email,pass);
+    }
+    private void checkTKtontai(String email, String pass){
+        ApiTKService.apiTKService.getTKByID(email).enqueue(new Callback<Taikhoan>() {
+            @Override
+            public void onResponse(Call<Taikhoan> call, Response<Taikhoan> response) {
+                checkDN(email, pass);
+            }
+
+            @Override
+            public void onFailure(Call<Taikhoan> call, Throwable t) {
+                Toast.makeText(MainActivity.this,"Sai thông tin tài khoản hoặc mật khẩu",Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 
-    private void XulyLogin() {
-        ApiUserService.apiUserService.getUserByTk(edtTenDN.getText().toString(),edtPass.getText().toString()).enqueue(new Callback<User>() {
+    private void XulyLogin(String email, String pass) {
+        System.out.println("aaaaa");
+        ApiUserService.apiUserService.getUserByTk(email,pass).enqueue(new Callback<User>() {
             @Override
             public void onResponse(Call<User> call, Response<User> response) {
                 Toast.makeText(MainActivity.this,"call api success",Toast.LENGTH_SHORT).show();
+                System.out.println("1");
                 user=response.body();
+                System.out.println("2");
                 Intent intent = new Intent(MainActivity.this,Menu.class);
+                System.out.println("3");
                 startActivity(intent);
             }
 
             @Override
             public void onFailure(Call<User> call, Throwable t) {
-                Toast.makeText(MainActivity.this,"Sai thông tin tài khoản hoặc mật khẩu",Toast.LENGTH_SHORT).show();
+               // Toast.makeText(MainActivity.this,"Sai thông tin tài khoản hoặc mật khẩu",Toast.LENGTH_SHORT).show();
             }
         });
     }
+        private void checkDN(String email, String pass) {
+            ApiTKService.apiTKService.checkDN(email, pass).enqueue(new Callback<Boolean>() {
+                @Override
+                public void onResponse(Call<Boolean> call, Response<Boolean> response) {
+                    Boolean check = response.body();
+                    System.out.println("check: " + check);
+                    if (check == true) {
+                        System.out.println("hihihi");
+                        XulyLogin(email, pass);
+                    } else
+                        Toast.makeText(MainActivity.this, "Sai thông tin tài khoản hoặc mật khẩu", Toast.LENGTH_SHORT).show();
+                }
+
+                @Override
+                public void onFailure(Call<Boolean> call, Throwable t) {
+                    Toast.makeText(MainActivity.this, "Sai thông tin tài khoản hoặc mật khẩu", Toast.LENGTH_SHORT).show();
+                }
+            });
+        }
 
     private void setControl() {
         edtTenDN = findViewById(R.id.tendn);

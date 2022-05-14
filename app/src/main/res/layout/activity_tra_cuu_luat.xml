@@ -1,9 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/hn"
     tools:context=".TraCuuLuat">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_loailuat"
+            android:layout_width="match_parent"
+            app:titleTextColor="@color/a4"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/rectangle"
+            android:theme="@style/ThemeOverlay.AppCompat.Light"
+            app:title="Luật giao thông" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <SearchView
+        android:id="@+id/svLoailuat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/border_rectangle" />
+    <GridView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gvLoailuat"
+        android:padding="10dp"/>
+
+</LinearLayout>

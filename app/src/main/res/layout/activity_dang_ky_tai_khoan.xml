@@ -25,52 +25,64 @@
             />
     </com.google.android.material.appbar.AppBarLayout>
 
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="10dp">
     <EditText
         android:id="@+id/edtHoTen"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="25dp"
-        android:layout_marginEnd="32dp"
         android:hint="    Họ tên"
         android:background="@drawable/boder"
         android:drawableStart="@drawable/ic_baseline_account_circle_24"
         android:padding="16dp"/>
-
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        app:cardCornerRadius="10dp">
     <EditText
         android:id="@+id/edtSDT"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="25dp"
-        android:layout_marginEnd="32dp"
         android:hint="    Số điện thoại"
         android:background="@drawable/boder"
         android:drawableStart="@drawable/ic_baseline_account_circle_24"
         android:padding="16dp"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="10dp">
     <EditText
         android:id="@+id/edtEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="25dp"
-        android:layout_marginEnd="32dp"
         android:hint="    Email"
         android:background="@drawable/boder"
         android:drawableStart="@drawable/ic_baseline_account_circle_24"
         android:padding="16dp"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        app:cardCornerRadius="10dp">
     <EditText
         android:id="@+id/edtMatkhau"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="25dp"
-        android:layout_marginEnd="32dp"
         android:hint="    Mật khẩu"
         android:background="@drawable/boder"
         android:drawableStart="@drawable/ic_baseline_account_circle_24"
         android:padding="16dp"/>
-
+    </androidx.cardview.widget.CardView>
     <Button
         android:id="@+id/btnDangKy"
         android:layout_width="140dp"

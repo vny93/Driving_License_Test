@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -65,8 +66,8 @@ public class Fragment_Loailithuyet extends Fragment {
                     }
                 });
                 rcvLoailt.setAdapter(loailtAdapter);
-             //   RecyclerView.ItemDecoration itemDecoration = new DividerItemDecoration(mhocLithuyet, DividerItemDecoration.VERTICAL);
-           //     rcvLoailt.addItemDecoration(itemDecoration);
+                RecyclerView.ItemDecoration itemDecoration = new DividerItemDecoration(mhocLithuyet, DividerItemDecoration.VERTICAL);
+                rcvLoailt.addItemDecoration(itemDecoration);
                 System.out.println("lấy thành công!");
             }
 

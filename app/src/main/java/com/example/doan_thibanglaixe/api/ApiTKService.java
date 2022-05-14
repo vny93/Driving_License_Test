@@ -32,4 +32,8 @@ public interface ApiTKService {
 
     @GET("tk/getById")
     Call<Taikhoan> getTKByID(@Query("tendangnhap") String tendn);
+
+    @GET("tk/dangNhap")
+    Call<Boolean> checkDN(@Query("tendangnhap") String tendn, @Query("matkhau") String mk);
+
 }
