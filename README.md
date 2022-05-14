@@ -21,14 +21,29 @@
 
     Cho phép người dùng xem lại các đề đã thi, cũng như các đáp án đã chọn đúng hoặc sai.
 
-#### II. Ảnh Demo
+#### II. Ảnh Demo!
 
-<img width="407" alt="Screen Shot 2022-05-03 at 20 47 41" src="https://user-images.githubusercontent.com/80116131/166465079-3a1859ea-13ad-4277-8281-9b25a9579182.png">
 
-<img width="404" alt="Screen Shot 2022-05-03 at 20 50 27" src="https://user-images.githubusercontent.com/80116131/166465666-14d68b30-d038-4012-bb8d-a7e38d9651c0.png">
-<img width="405" alt="Screen Shot 2022-05-03 at 20 50 44" src="https://user-images.githubusercontent.com/80116131/166465723-b1436ceb-40ff-4f56-a64d-96f05f32bd10.png">
-<img width="402" alt="Screen Shot 2022-05-03 at 20 50 55" src="https://user-images.githubusercontent.com/80116131/166465756-5d81ec4d-f16e-4077-89ab-fd5153b6b93a.png">
-<img width="407" alt="Screen Shot 2022-05-03 at 20 51 20" src="https://user-images.githubusercontent.com/80116131/166465840-8d284a8c-0a45-4807-808f-71c5abe4b8d8.png">
-<img width="403" alt="Screen Shot 2022-05-03 at 20 51 40" src="https://user-images.githubusercontent.com/80116131/166465913-55b71fd6-3e87-4c7d-8fd7-63a4fbbfbbb3.png">
-<img width="405" alt="Screen Shot 2022-05-03 at 20 52 11" src="https://user-images.githubusercontent.com/80116131/166466002-a8344bca-4e8f-4a21-bca4-51d64e53d889.png">
-<img width="407" alt="Screen Shot 2022-05-03 at 21 03 59" src="https://user-images.githubusercontent.com/80116131/166468139-0fd05aea-9554-454c-bb52-5c3b33364075.png">
+<img width="405" alt="Screen Shot 2022-05-14 at 22 22 18" src="https://user-images.githubusercontent.com/80116131/168435668-c471ed2d-2a87-4f6a-a8fb-14d20cc43a80.png">
+
+<img width="403" alt="Screen Shot 2022-05-14 at 22 28 42" src="https://user-images.githubusercontent.com/80116131/168436831-cf77e4f7-b909-4a1c-93b4-1ac13f366c4b.png">
+
+<img width="400" alt="Screen Shot 2022-05-14 at 22 29 25" src="https://user-images.githubusercontent.com/80116131/168437002-e36ba324-47d4-459d-8444-6b9b03ee0d0c.png">
+
+<img width="404" alt="Screen Shot 2022-05-14 at 22 31 17" src="https://user-images.githubusercontent.com/80116131/168437256-d268bc16-caf3-4ab2-bcc0-66fa0f14fcdd.png">
+
+<img width="404" alt="Screen Shot 2022-05-14 at 22 31 50" src="https://user-images.githubusercontent.com/80116131/168437365-8b930c5e-2e8b-4a94-b088-e9943ac4d8aa.png">
+
+<img width="403" alt="Screen Shot 2022-05-14 at 22 32 45" src="https://user-images.githubusercontent.com/80116131/168437554-6ea4ff14-18ff-449b-b78f-2003b7411e38.png">
+
+<img width="405" alt="Screen Shot 2022-05-14 at 22 34 21" src="https://user-images.githubusercontent.com/80116131/168437806-55525bed-cdc4-48cc-a1b3-cee987cd54ec.png">
+
+<img width="402" alt="Screen Shot 2022-05-14 at 22 34 48" src="https://user-images.githubusercontent.com/80116131/168437887-3c959345-1cb8-4bc4-8aca-01de4ff6d363.png">
+
+<img width="406" alt="Screen Shot 2022-05-14 at 22 35 24" src="https://user-images.githubusercontent.com/80116131/168438007-65894455-f6ac-4148-a841-a17edad41076.png">
+
+<img width="398" alt="Screen Shot 2022-05-14 at 22 36 10" src="https://user-images.githubusercontent.com/80116131/168438138-ed35817c-a3be-4d5a-b75a-d38511a34c7d.png">
+
+<img width="401" alt="Screen Shot 2022-05-14 at 22 36 30" src="https://user-images.githubusercontent.com/80116131/168438203-233dfe46-b5d6-4aad-a22e-6cf5b65faacd.png">
+
+
