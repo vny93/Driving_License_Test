@@ -9,6 +9,7 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
@@ -45,7 +46,7 @@ public class Menu extends AppCompatActivity implements NavigationView.OnNavigati
     private static final int FRAGMENT_3 = 2;
     private static final int FRAGMENT_4 = 3;
     private static final int FRAGMENT_5 = 4;
-    private int mCurrentFragment = FRAGMENT_3;
+    private int mCurrentFragment = FRAGMENT_1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -73,8 +74,8 @@ public class Menu extends AppCompatActivity implements NavigationView.OnNavigati
         toggle.syncState();
         NavigationView navigationView = findViewById(R.id.navigation_view);
         navigationView.setNavigationItemSelectedListener(this);
-        replaceFragment(new Fragment3()); // gán mặc định khi vào menu
-        navigationView.getMenu().findItem(R.id.nax_3).setCheckable(true);
+        replaceFragment(new Fragment1()); // gán mặc định khi vào menu
+        navigationView.getMenu().findItem(R.id.nax_1).setCheckable(true);
 
         //ánh xạ header_nav
         View headerLayout = navigationView.getHeaderView(0);
@@ -118,7 +119,9 @@ public class Menu extends AppCompatActivity implements NavigationView.OnNavigati
                 replaceFragment(new Fragment5());
                 mCurrentFragment = FRAGMENT_5;
             }
-
+        } else if (id == R.id.nax_6) {
+            Intent intent = new Intent(this,MainActivity.class);
+            startActivity(intent);
         }
         drawerLayout.closeDrawer(GravityCompat.START);
         return false;

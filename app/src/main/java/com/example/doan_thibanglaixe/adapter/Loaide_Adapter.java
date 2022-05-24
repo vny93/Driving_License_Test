@@ -1,5 +1,6 @@
 package com.example.doan_thibanglaixe.adapter;
 
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -17,6 +18,7 @@ import java.util.List;
 
 public class Loaide_Adapter extends RecyclerView.Adapter<Loaide_Adapter.LoaideHolder> {
     public static Loaide loaiBoDe;
+    public static Integer maLoaide=0;
     private List<Loaide> mLoaide;
 
     public Loaide_Adapter(List<Loaide> mLoaide) {
@@ -45,6 +47,13 @@ public class Loaide_Adapter extends RecyclerView.Adapter<Loaide_Adapter.LoaideHo
             @Override
             public void onClick(View view) {
                 loaiBoDe = loaide;
+                maLoaide = loaide.getMaloaide();
+//                System.out.println("holder "+holder.tvLoaide.getBackground());
+//                if (holder.tvLoaide.getBackground()==null || holder.tvLoaide.getBackground().equals(Color.BLUE))
+//                    holder.tvLoaide.setBackgroundColor(Color.BLUE);
+//                else
+//                    holder.tvLoaide.setBackgroundColor(Color.WHITE);
+
                 System.out.println("maloaide"+loaiBoDe.getMaloaide());
             }
         });

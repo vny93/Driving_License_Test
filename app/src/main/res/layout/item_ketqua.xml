@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="horizontal">
 
     <androidx.cardview.widget.CardView
@@ -10,21 +10,30 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         app:cardCornerRadius="10dp">
-    <ImageView
-        android:id="@+id/imvExam"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:src="@drawable/ketqua"/>
+
+        <ImageView
+            android:id="@+id/imvExam"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ketqua" />
 
         <TextView
             android:id="@+id/tvExam"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="56dp"
-            android:text="Đề số "
-            android:textSize="17dp"
-            android:textColor="@color/black"
+            android:layout_marginStart="40dp"
             android:padding="25dp"
+            android:text="Đề số "
+            android:textColor="@color/black"
+            android:textSize="17dp"
             android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imvDelete"
+            android:layout_marginTop="22dp"
+            android:layout_marginStart="140dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@android:drawable/ic_menu_close_clear_cancel" />
     </androidx.cardview.widget.CardView>
 </LinearLayout>

@@ -1,5 +1,6 @@
 package com.example.doan_thibanglaixe.adapter;
 
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -17,6 +18,7 @@ import java.util.List;
 
 public class Loaibang_Adapter extends RecyclerView.Adapter<Loaibang_Adapter.LoaibangHolder> {
     public static Loaibang loaibanglai;
+    public static Integer loaibl=0;
     public Loaibang_Adapter(List<Loaibang> mLoaibang) {
         this.mLoaibang = mLoaibang;
     }
@@ -42,6 +44,12 @@ public class Loaibang_Adapter extends RecyclerView.Adapter<Loaibang_Adapter.Loai
             @Override
             public void onClick(View view) {
                 loaibanglai = loaibang;
+                loaibl = loaibang.getMaloaibang();
+//                if (holder.tvLoaibang.getBackground()==null || holder.tvLoaibang.getBackground().equals(Color.WHITE))
+//                    holder.tvLoaibang.setBackgroundColor(Color.BLUE);
+//                else
+//                    holder.tvLoaibang.setBackgroundColor(Color.WHITE);
+
                 System.out.println("maloaibang"+loaibanglai.getMaloaibang());
             }
         });

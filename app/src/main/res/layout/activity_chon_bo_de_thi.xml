@@ -1,9 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ChonBoDeThi">
+    android:orientation="vertical"
+    android:background="@drawable/hn">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="10dp"
+        android:textSize="25dp"
+        android:textColor="@color/a4"
+        android:textStyle="bold"
+        android:text="CHỌN BỘ ĐỀ THI"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcv_loaide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="25dp"
+        android:textColor="@color/a4"
+        android:textStyle="bold"
+        android:layout_marginStart="10dp"
+        android:text="CHỌN LOẠI BẰNG LÁI XE MÁY"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcv_loaibanglai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnchon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="chọn"
+        android:background="@drawable/custom_button1"
+        />
+
+</LinearLayout>

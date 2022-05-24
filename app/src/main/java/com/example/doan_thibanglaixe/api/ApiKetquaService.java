@@ -12,8 +12,10 @@ import retrofit2.Call;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 import retrofit2.http.Body;
+import retrofit2.http.DELETE;
 import retrofit2.http.GET;
 import retrofit2.http.POST;
+import retrofit2.http.Path;
 import retrofit2.http.Query;
 
 public interface ApiKetquaService {
@@ -40,4 +42,12 @@ public interface ApiKetquaService {
     Call<List<Ketqua>> getLuotthi(@Query("email") String email,
                             @Query("luotthi") Integer luotthi,
                             @Query("mabode") Integer mabode);
+
+    @GET("ketqua/deleteKQ")
+    Call<Void> xoaKQ(@Query("luotthi") Integer luotthi,
+                     @Query("email") String email);
+
+    @GET("ketqua/getSTT")
+    Call<List<Integer>> getSTT(@Query("email") String email,
+                               @Query("mabode") Integer mabode);
 }

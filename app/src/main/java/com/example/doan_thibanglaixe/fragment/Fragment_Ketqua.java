@@ -17,7 +17,6 @@ import com.example.doan_thibanglaixe.MainActivity;
 import com.example.doan_thibanglaixe.Menu;
 import com.example.doan_thibanglaixe.R;
 import com.example.doan_thibanglaixe.adapter.Exam_Adapter;
-import com.example.doan_thibanglaixe.api.ApiCauhoiiService;
 import com.example.doan_thibanglaixe.api.ApiKetquaService;
 import com.example.doan_thibanglaixe.model.Cauhoi;
 import com.example.doan_thibanglaixe.model.Exam;
@@ -51,36 +50,58 @@ public class Fragment_Ketqua extends Fragment {
         exams = new ArrayList<>();
     }
 
-    private void getDe(){
+    public void getDe(){
         exam_adapter = new Exam_Adapter(getActivity(),R.layout.item_ketqua,exams);
-        gvkq = (GridView) getActivity().findViewById(R.id.gvKetqua);
+        gvkq = view.findViewById(R.id.gvKetqua);
         gvkq.setAdapter(exam_adapter);
-        gvkq.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Intent intent = new Intent(getActivity(), ChiTietKetQua.class);
-                intent.putExtra("luotthi",i);
-                startActivity(intent);
-            }
-        });
+//        gvkq.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+//            @Override
+//            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+//                Intent intent = new Intent(getActivity(), ChiTietKetQua.class);
+//                intent.putExtra("luotthi",i);
+//                startActivity(intent);
+//            }
+//        });
     }
-    private void getSode() {
+//    public void getSode() {
+//        khoiTao();
+//        String email = MainActivity.user.getEmail().toString();
+//        Integer mabode = Menu.bodethi.getMabodethi();
+//        ApiKetquaService.apiKetquaService.getMaxluotthi(email, mabode).enqueue(new Callback<Integer>() {
+//            @Override
+//            public void onResponse(Call<Integer> call, Response<Integer> response) {
+//                Integer max = response.body();
+//                System.out.println("max: "+max);
+//                for(int i =0;i<max;i++){
+//                    Integer de = i+1;
+//                    exams.add(new Exam(de,"Đề số: "+de));
+//                }
+//                getDe();
+//            }
+//
+//            @Override
+//            public void onFailure(Call<Integer> call, Throwable t) {
+//
+//            }
+//        });
+//    }
+
+    public void getSode() {
+        khoiTao();
         String email = MainActivity.user.getEmail().toString();
         Integer mabode = Menu.bodethi.getMabodethi();
-        ApiKetquaService.apiKetquaService.getMaxluotthi(email, mabode).enqueue(new Callback<Integer>() {
+        ApiKetquaService.apiKetquaService.getSTT(email, mabode).enqueue(new Callback<List<Integer>>() {
             @Override
-            public void onResponse(Call<Integer> call, Response<Integer> response) {
-                Integer max = response.body();
-                khoiTao();
-                for(int i =0;i<max;i++){
-                    Integer de = i+1;
-                    exams.add(new Exam("Đề số: "+de));
+            public void onResponse(Call<List<Integer>> call, Response<List<Integer>> response) {
+                List<Integer> list = response.body();
+                for(Integer i : list){
+                    exams.add(new Exam(i,"Đề số: "+i));
                 }
                 getDe();
             }
 
             @Override
-            public void onFailure(Call<Integer> call, Throwable t) {
+            public void onFailure(Call<List<Integer>> call, Throwable t) {
 
             }
         });

@@ -24,8 +24,7 @@
         android:layout_height="150dp"
         android:layout_marginStart="230dp"
         android:layout_marginBottom="-60dp"
-        android:background="@drawable/logo2">
-    </ImageView>
+        android:background="@drawable/logo2"></ImageView>
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -33,15 +32,23 @@
         android:layout_margin="30dp"
         app:cardCornerRadius="10dp">
 
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ic_baseline_account_circle_24" />
+
         <EditText
             android:id="@+id/tendn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
             android:background="@drawable/boder"
-            android:textColor="@color/a4"
-            android:drawableStart="@drawable/ic_baseline_account_circle_24"
             android:hint="    Email"
-            android:padding="14dp" />
+            android:padding="14dp"
+            android:text="yenvu@gmail.com"
+            android:textColor="@color/a4" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
@@ -50,16 +57,25 @@
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
         app:cardCornerRadius="10dp">
-    <EditText
-        android:id="@+id/password"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/boder"
-        android:textColor="@color/a4"
-        android:drawableStart="@drawable/ic_baseline_lock_24"
-        android:hint="    Password"
-        android:inputType="textPassword"
-        android:padding="14dp"/>
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ic_baseline_lock_24" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:background="@drawable/boder"
+            android:hint="    Password"
+            android:inputType="textPassword"
+            android:padding="14dp"
+            android:text="123"
+            android:textColor="@color/a4" />
     </androidx.cardview.widget.CardView>
 
     <TextView

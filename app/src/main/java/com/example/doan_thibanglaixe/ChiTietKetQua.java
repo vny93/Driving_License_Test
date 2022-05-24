@@ -39,7 +39,6 @@ public class ChiTietKetQua extends AppCompatActivity {
         setContentView(R.layout.activity_chi_tiet_ket_qua);
         Intent intent = getIntent();
         Integer luotthi = intent.getIntExtra("luotthi", 0);
-        luotthi = luotthi + 1;
         System.out.println("luot thi: " + luotthi);
         setConTrol();
         setEvent();

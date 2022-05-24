@@ -1,13 +1,23 @@
 package com.example.doan_thibanglaixe.model;
 
 public class Exam {
+    Integer id;
     String name;
 
     public Exam() {
     }
 
-    public Exam(String name) {
+    public Exam(Integer id, String name) {
+        this.id = id;
         this.name = name;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
     }
 
     public String getName() {

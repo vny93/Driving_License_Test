@@ -15,6 +15,7 @@
         <entry key="app/src/main/res/drawable/custom_button1.xml" value="0.2677083333333333" />
         <entry key="app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.14479166666666668" />
         <entry key="app/src/main/res/drawable/ic_baseline_brightness_1_24.xml" value="0.2677083333333333" />
+        <entry key="app/src/main/res/drawable/ic_baseline_done_outline_24.xml" value="0.1565" />
         <entry key="app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.1565" />
         <entry key="app/src/main/res/drawable/ic_baseline_emoji_emotions_24.xml" value="0.1285" />
         <entry key="app/src/main/res/drawable/ic_baseline_hexagon_24.xml" value="0.2677083333333333" />
@@ -25,6 +26,7 @@
         <entry key="app/src/main/res/drawable/logo.xml" value="0.2677083333333333" />
         <entry key="app/src/main/res/drawable/rectangle.xml" value="0.2677083333333333" />
         <entry key="app/src/main/res/drawable/result.xml" value="0.1565" />
+        <entry key="app/src/main/res/drawable/round_border_thongbao.xml" value="0.1565" />
         <entry key="app/src/main/res/drawable/side_nav_bar.xml" value="0.2635897435897436" />
         <entry key="app/src/main/res/drawable/text.xml" value="0.142" />
         <entry key="app/src/main/res/layout/a.xml" value="0.12234042553191489" />
@@ -35,6 +37,7 @@
         <entry key="app/src/main/res/layout/activity_chon_bo_de_thi.xml" value="0.2515625" />
         <entry key="app/src/main/res/layout/activity_dang_ky_tai_khoan.xml" value="0.2515625" />
         <entry key="app/src/main/res/layout/activity_dialog_tbthanhcong.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_dialog_xoa_ket_qua.xml" value="0.1983695652173913" />
         <entry key="app/src/main/res/layout/activity_doi_mat_khau.xml" value="0.2515625" />
         <entry key="app/src/main/res/layout/activity_hoc_li_thuyet.xml" value="0.2515625" />
         <entry key="app/src/main/res/layout/activity_ketqua.xml" value="0.11770833333333333" />
@@ -50,8 +53,10 @@
         <entry key="app/src/main/res/layout/content_navigation.xml" value="0.2515625" />
         <entry key="app/src/main/res/layout/dialog_checkanswer.xml" value="0.2515625" />
         <entry key="app/src/main/res/layout/dialog_meothi.xml" value="0.18840579710144928" />
+        <entry key="app/src/main/res/layout/dialog_that_bai.xml" value="0.14739583333333334" />
         <entry key="app/src/main/res/layout/dialog_xemDiem.xml" value="0.15534420289855072" />
         <entry key="app/src/main/res/layout/dialog_xemdiem.xml" value="0.15534420289855072" />
+        <entry key="app/src/main/res/layout/dialog_xoa_thanh_cong.xml" value="0.14739583333333334" />
         <entry key="app/src/main/res/layout/fragment_1.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_2.xml" value="0.121875" />
         <entry key="app/src/main/res/layout/fragment_3.xml" value="0.25" />

@@ -147,6 +147,7 @@ public class LamBaiThi extends AppCompatActivity {
                 //lưu kết quả và thoát ra màn hình Fragment1
                 dialog.dismiss();
                 insertKetQua();
+                finish();
             }
         });
         dialog.show();
@@ -162,8 +163,8 @@ public class LamBaiThi extends AppCompatActivity {
                 System.out.println("MAX: "+max);
                 insert(traLoi,max);
                 Toast.makeText( LamBaiThi.this,"Kết quả đã được lưu lại",Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(LamBaiThi.this, Menu.class);
-                startActivity(intent);
+//                Intent intent = new Intent(LamBaiThi.this, Menu.class);
+//                startActivity(intent);
             }
 
             @Override

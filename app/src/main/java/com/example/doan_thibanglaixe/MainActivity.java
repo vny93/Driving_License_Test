@@ -75,42 +75,40 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onFailure(Call<Taikhoan> call, Throwable t) {
-                Toast.makeText(MainActivity.this,"Sai thông tin tài khoản hoặc mật khẩu",Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this,"Tài khoản này chưa được đăng ký",Toast.LENGTH_SHORT).show();
             }
         });
     }
 
     private void XulyLogin(String email, String pass) {
         System.out.println("aaaaa");
-        ApiUserService.apiUserService.getUserByTk(email,pass).enqueue(new Callback<User>() {
-            @Override
-            public void onResponse(Call<User> call, Response<User> response) {
-                Toast.makeText(MainActivity.this,"call api success",Toast.LENGTH_SHORT).show();
-                System.out.println("1");
-                user=response.body();
-                System.out.println("2");
-                Intent intent = new Intent(MainActivity.this,Menu.class);
-                System.out.println("3");
+     //   ApiUserService.apiUserService.getUserByTk(email,pass).enqueue(new Callback<User>() {
+     //       @Override
+      //      public void onResponse(Call<User> call, Response<User> response) {
+      //          Toast.makeText(MainActivity.this,"call api success",Toast.LENGTH_SHORT).show();
+       //         user=response.body();
+                User user1 = new User("yenvu@gmail,com","yen","091234590");
+                user =user1;
+               // Intent intent = new Intent(MainActivity.this,Menu.class);
+                Intent intent = new Intent(MainActivity.this,ChonBoDeThi.class);
                 startActivity(intent);
-            }
-
-            @Override
-            public void onFailure(Call<User> call, Throwable t) {
+      //      }
+//
+      //      @Override
+      //      public void onFailure(Call<User> call, Throwable t) {
                // Toast.makeText(MainActivity.this,"Sai thông tin tài khoản hoặc mật khẩu",Toast.LENGTH_SHORT).show();
-            }
-        });
+       //     }
+      //  });
     }
         private void checkDN(String email, String pass) {
             ApiTKService.apiTKService.checkDN(email, pass).enqueue(new Callback<Boolean>() {
                 @Override
                 public void onResponse(Call<Boolean> call, Response<Boolean> response) {
                     Boolean check = response.body();
-                    System.out.println("check: " + check);
-                    if (check == true) {
-                        System.out.println("hihihi");
+                  //  if (check == true) {
                         XulyLogin(email, pass);
-                    } else
-                        Toast.makeText(MainActivity.this, "Sai thông tin tài khoản hoặc mật khẩu", Toast.LENGTH_SHORT).show();
+                 //   } else
+                  //      Toast.makeText(MainActivity.this, "Mật khẩu không đúng", Toast.LENGTH_SHORT).show();
                 }
 
                 @Override
