@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/hn"
     android:orientation="vertical"
-    tools:context=".fragment.Fragment_Lambaithi">
+    tools:context=".screens.lambaithi.FragmentLambaithi">
 
     <TextView
         android:id="@+id/tvSTTcau_lbt"

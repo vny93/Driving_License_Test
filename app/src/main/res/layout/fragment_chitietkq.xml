@@ -6,7 +6,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/hn"
     android:orientation="vertical"
-    tools:context=".fragment.Fragment_Chitietkq">
+    tools:context=".screens.ketqua.FragmentChitietkq">
 
     <TextView
         android:id="@+id/tvSTTcau_tckq"

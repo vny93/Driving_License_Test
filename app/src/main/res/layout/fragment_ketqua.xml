@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/hn"
-    tools:context=".fragment.Fragment_Loailithuyet">
+    tools:context=".screens.lithuyet.FragmentLoailt">
 
     <GridView
         android:layout_marginTop="20dp"

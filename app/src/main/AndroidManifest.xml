@@ -13,49 +13,52 @@
         android:theme="@style/Theme.Design.Light.NoActionBar"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".ChiTietLuat"
+            android:name=".screens.quenmk.ResetPasswordActivity"
             android:exported="false" />
         <activity
-            android:name=".ChiTietKetQua"
+            android:name=".screens.quenmk.VerifyActivity"
             android:exported="false" />
         <activity
-            android:name=".KetQuaActivity"
+            android:name=".screens.quenmk.QuenMkActivity"
             android:exported="false" />
         <activity
-            android:name=".Cauhoilithuyet"
+            android:name=".screens.luatgt.ChiTietLuatActivity"
             android:exported="false" />
         <activity
-            android:name=".DangKyTaiKhoan"
+            android:name=".screens.ketqua.ChiTietKqActivity"
             android:exported="false" />
         <activity
-            android:name=".DoiMatKhau"
+            android:name=".screens.ketqua.KetQuaActivity"
             android:exported="false" />
         <activity
-            android:name=".ThongTinCaNhan"
+            android:name=".screens.lithuyet.CauhoiltActivity"
             android:exported="false" />
         <activity
-            android:name=".CacCauSai"
+            android:name=".screens.dangkytk.DangKyTaiKhoan"
             android:exported="false" />
         <activity
-            android:name=".TraCuuLuat"
+            android:name=".screens.caccausai.CacCauSaiActivity"
             android:exported="false" />
         <activity
-            android:name=".MeoActivity"
+            android:name=".screens.luatgt.TraCuuLuatActivity"
             android:exported="false" />
         <activity
-            android:name=".LamBaiThi"
+            android:name=".screens.meothi.MeoActivity"
             android:exported="false" />
         <activity
-            android:name=".ChonBoDeThi"
+            android:name=".screens.lambaithi.LamBaiThiActivity"
             android:exported="false" />
         <activity
-            android:name=".LiThuyet"
+            android:name=".screens.luachon.ChonBoDeActivity"
             android:exported="false" />
         <activity
-            android:name=".Menu"
+            android:name=".screens.lithuyet.LiThuyetActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".screens.menu.MenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".screens.login.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

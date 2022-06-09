@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ChiTietKetQua">
+    android:background="@drawable/hn"
+    tools:context=".screens.ketqua.ChiTietKqActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"

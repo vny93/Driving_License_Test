@@ -9,10 +9,18 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         app:cardCornerRadius="10dp">
+
+        <ImageView
+            android:id="@+id/imvExam"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/hinh7" />
+
         <TextView
             android:id="@+id/tv_meothi"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
             android:padding="20dp"
             android:text="Mẹo thi"
             android:textColor="@color/black"

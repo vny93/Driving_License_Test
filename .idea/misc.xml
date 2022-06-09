@@ -13,6 +13,7 @@
         <entry key="app/src/main/res/drawable/circle.xml" value="0.125" />
         <entry key="app/src/main/res/drawable/circle_kq.xml" value="0.125" />
         <entry key="app/src/main/res/drawable/custom_button1.xml" value="0.2677083333333333" />
+        <entry key="app/src/main/res/drawable/custom_item.xml" value="0.1215" />
         <entry key="app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.14479166666666668" />
         <entry key="app/src/main/res/drawable/ic_baseline_brightness_1_24.xml" value="0.2677083333333333" />
         <entry key="app/src/main/res/drawable/ic_baseline_done_outline_24.xml" value="0.1565" />
@@ -47,20 +48,26 @@
         <entry key="app/src/main/res/layout/activity_menu.xml" value="0.2515625" />
         <entry key="app/src/main/res/layout/activity_meo_thi.xml" value="0.2515625" />
         <entry key="app/src/main/res/layout/activity_navigation.xml" value="0.12916666666666668" />
+        <entry key="app/src/main/res/layout/activity_quen_mk.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_reset_password.xml" value="0.11145833333333334" />
         <entry key="app/src/main/res/layout/activity_thong_tin_ca_nhan.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_tra_cuu_luat.xml" value="0.2515625" />
+        <entry key="app/src/main/res/layout/activity_verify.xml" value="0.25" />
         <entry key="app/src/main/res/layout/app_bar_navigation.xml" value="0.11550151975683891" />
         <entry key="app/src/main/res/layout/content_navigation.xml" value="0.2515625" />
+        <entry key="app/src/main/res/layout/custom_item.xml" value="0.11041666666666666" />
         <entry key="app/src/main/res/layout/dialog_checkanswer.xml" value="0.2515625" />
         <entry key="app/src/main/res/layout/dialog_meothi.xml" value="0.18840579710144928" />
+        <entry key="app/src/main/res/layout/dialog_thanh_cong.xml" value="0.21014492753623187" />
         <entry key="app/src/main/res/layout/dialog_that_bai.xml" value="0.14739583333333334" />
         <entry key="app/src/main/res/layout/dialog_xemDiem.xml" value="0.15534420289855072" />
         <entry key="app/src/main/res/layout/dialog_xemdiem.xml" value="0.15534420289855072" />
+        <entry key="app/src/main/res/layout/dialog_xoa_ket_qua.xml" value="0.21014492753623187" />
         <entry key="app/src/main/res/layout/dialog_xoa_thanh_cong.xml" value="0.14739583333333334" />
         <entry key="app/src/main/res/layout/fragment_1.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_2.xml" value="0.121875" />
         <entry key="app/src/main/res/layout/fragment_3.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/fragment_4.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/fragment_4.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_5.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_6.xml" value="0.2515625" />
         <entry key="app/src/main/res/layout/fragment__caccausai.xml" value="0.18840579710144928" />
@@ -68,23 +75,33 @@
         <entry key="app/src/main/res/layout/fragment__hoclithuyet.xml" value="0.2515625" />
         <entry key="app/src/main/res/layout/fragment__ketqua.xml" value="0.11770833333333333" />
         <entry key="app/src/main/res/layout/fragment__lambaithi.xml" value="0.2515625" />
+        <entry key="app/src/main/res/layout/fragment_account.xml" value="0.21014492753623187" />
         <entry key="app/src/main/res/layout/fragment_caccausai.xml" value="0.18840579710144928" />
         <entry key="app/src/main/res/layout/fragment_chitietkq.xml" value="0.15534420289855072" />
         <entry key="app/src/main/res/layout/fragment_gallery.xml" value="0.12916666666666668" />
         <entry key="app/src/main/res/layout/fragment_hoclithuyet.xml" value="0.165" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.12916666666666668" />
+        <entry key="app/src/main/res/layout/fragment_hotro.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/fragment_infor.xml" value="0.21014492753623187" />
         <entry key="app/src/main/res/layout/fragment_ketqua.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_lambaithi.xml" value="0.165" />
         <entry key="app/src/main/res/layout/fragment_loailithuyet.xml" value="0.2515625" />
         <entry key="app/src/main/res/layout/fragment_loailuat.xml" value="0.18840579710144928" />
+        <entry key="app/src/main/res/layout/fragment_menu.xml" value="0.21014492753623187" />
         <entry key="app/src/main/res/layout/fragment_slideshow.xml" value="0.12916666666666668" />
         <entry key="app/src/main/res/layout/item_chitietluat.xml" value="0.25" />
         <entry key="app/src/main/res/layout/item_gvdscauhoi.xml" value="0.2515625" />
-        <entry key="app/src/main/res/layout/item_ketqua.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/item_ketqua.xml" value="0.335" />
         <entry key="app/src/main/res/layout/item_lithuyet.xml" value="0.2375" />
+        <entry key="app/src/main/res/layout/item_loaibl.xml" value="0.11145833333333334" />
+        <entry key="app/src/main/res/layout/item_loaide.xml" value="0.25" />
         <entry key="app/src/main/res/layout/item_loaide_banglai.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/item_loailt_bl.xml" value="0.21014492753623187" />
         <entry key="app/src/main/res/layout/item_loailuat.xml" value="0.18840579710144928" />
         <entry key="app/src/main/res/layout/item_meothi.xml" value="0.18840579710144928" />
+        <entry key="app/src/main/res/layout/item_selected_spinnerloaibl.xml" value="0.11145833333333334" />
+        <entry key="app/src/main/res/layout/item_selected_spinnerloaide.xml" value="0.11145833333333334" />
+        <entry key="app/src/main/res/layout/item_selected_spinnermaloaitb.xml" value="0.21014492753623187" />
         <entry key="app/src/main/res/layout/layout_header_navi.xml" value="0.2375" />
         <entry key="app/src/main/res/layout/nav_header_navigation.xml" value="0.12916666666666668" />
         <entry key="app/src/main/res/layout/tmp.xml" value="0.2515625" />

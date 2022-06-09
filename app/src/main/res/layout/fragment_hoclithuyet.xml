@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/hn"
     android:orientation="vertical"
-    tools:context=".fragment.Fragment_Hoclithuyet">
+    tools:context=".screens.lithuyet.FragmentHoclt">
 
     <TextView
         android:id="@+id/tvSTTcau"

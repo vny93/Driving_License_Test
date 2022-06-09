@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/hn"
-    tools:context=".TraCuuLuat">
+    tools:context=".screens.luatgt.TraCuuLuatActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
